@@ -32,7 +32,7 @@ const getData = () => {
 
           pId.innerText = `User ID: ${user.id}`;
           pName.innerText = `User Name: ${user.name}`;
-          pWebsite.innerText = `User URL: ${user.website}<br/>--------`;
+          pWebsite.innerHTML = `User URL: ${user.website} <br/>--------`;
 
           let body = document.body;
           let hr = document.createElement("hr");
